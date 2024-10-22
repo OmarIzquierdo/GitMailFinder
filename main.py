@@ -1,4 +1,4 @@
-from GithubApi import GithubApi
+from api.Github import GithubApi
 
 api = GithubApi()
 
