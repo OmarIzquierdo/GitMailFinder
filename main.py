@@ -1,9 +1,10 @@
-from api.Formatter import Formatter
+from Formatter import Formatter
 from api.Github import GithubApi
 import argparse
 import sys
 from halo import Halo
-from colorama import Fore, Style
+from colorama import Fore
+
 
 def print_logo():
     logo = """                                                                                      
