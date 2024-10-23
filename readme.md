@@ -2,7 +2,7 @@
 
 GitMailFinder is a powerful tool designed to help you **find email addresses** embedded within the commit history of a specified GitHub user's repositories. Whether you're a developer looking to reach out to collaborators or just curious about the contributions made by others, GitMailFinder makes it easy to extract email addresses from public repositories.
 
-![img.png](img.png)
+![img.png](assets/img.png)
 
 ## Features
 - 📧 Extract email addresses from commits
@@ -18,7 +18,7 @@ To use GitMailFinder, run the following command in your terminal:
 python3 main.py -u [--username] <GITHUB_USERNAME>
 ```
 
-Replace <GITHUB_USERNAME> with the GitHub username you wish to search for. For example:
+Replace `<GITHUB_USERNAME>` with the GitHub username you wish to search for. For example:
 
 ```bash
 python3 main.py -u OmarIzquierdo
@@ -43,16 +43,20 @@ optional arguments:
 ## Installation
 
 ### 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/EmailGithubFinder.git
 cd EmailGithubFinder
 ```
 ### 2.	Create a virtual environment (optional but recommended):
-```angular2html
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
 ```
+
 ### 3.	Install the required packages:
+
 ```bash
 pip install -r requirements.txt
 ```
