@@ -30,4 +30,5 @@ class Formatter:
 
         table = pd.DataFrame(data)
 
+        print()
         print(tabulate(table, headers='keys', tablefmt='grid', showindex=False))
